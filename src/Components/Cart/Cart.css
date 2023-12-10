@@ -1,0 +1,31 @@
+.order-list {
+  list-style-type: none;
+  padding: 20px;
+  border-radius: 10px;
+  transform: translate(-50%, -50%);
+  animation: anim 0.7s ease-out;
+}
+
+@keyframes anim {
+  0% {
+    transform: translate(-50%, -50%) translate(0, -200px);
+    opacity: 0;
+  }
+  100% {
+    transform: translate(-50%, -50%) translate(0, 0);
+    opacity: 1;
+  }
+}
+
+.order-list > ul {
+  margin-bottom: 20px;
+  max-height: 300px;
+  overflow-y: auto;
+
+  background-color: inherit;
+}
+
+.order-list > ul > li {
+  padding: 30px 0 10px 0;
+  border-bottom: 2px solid var(--primary-red);
+}

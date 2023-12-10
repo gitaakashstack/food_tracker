@@ -1,0 +1,30 @@
+.mealitem-form > .mealitem-amount > label {
+  display: inline-block;
+  margin-right: 10px;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.mealitem-form > .mealitem-amount > input {
+  display: inline-block;
+  width: 40px;
+  border-radius: 5px;
+  border: 1px solid rgb(226, 220, 220);
+  outline: none;
+  padding: 5px;
+}
+
+.mealitem-form > .mealitem-addbutton-div {
+  text-align: center;
+  margin-top: 10px;
+}
+.mealitem-form > .mealitem-addbutton-div > button {
+  display: inline-block;
+  border-radius: 30px;
+  padding: 5px 30px;
+  background-color: var(--primary-red);
+  color: var(--white-text);
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+}

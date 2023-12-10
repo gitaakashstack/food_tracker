@@ -1,0 +1,15 @@
+.meal-item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.meal-item .meal-description {
+  font-style: italic;
+  font-size: 0.9rem;
+}
+
+.meal-item .meal-price {
+  color: orangered;
+  font-weight: 800;
+  font-size: 1.1rem;
+}

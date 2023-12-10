@@ -1,0 +1,18 @@
+.meal-items-container {
+  background-color: white;
+  width: 70%;
+  min-width: 300px;
+}
+
+.meal-items-container > ul {
+  list-style: none;
+}
+
+.meal-items-container > ul > li {
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgb(226, 220, 220);
+}
+
+.meal-items-container > ul > li:not(:first-child) {
+  padding-top: 20px;
+}

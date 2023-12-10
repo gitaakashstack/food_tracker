@@ -1,0 +1,11 @@
+.summary {
+  color: var(--white-text);
+  width: 600px;
+  background-color: #3f3f3f;
+  text-align: center;
+  margin-top: -150px;
+}
+
+.summary > *:not(:last-child) {
+  margin-bottom: 20px;
+}
